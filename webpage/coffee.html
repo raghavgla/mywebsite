@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Montserrat:wght@100&display=swap');
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: Montserrat;
+
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            width: 600px;
+
+            padding: 4px;
+            font-size: 20px;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        ul>li {
+            padding: 5px;
+        }
+
+        ul>li:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .logo {
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .image1 {
+            background-color: white;
+            float: right;
+            position: relative;
+            margin-top: -20px;
+        }
+
+        .content {
+            width: 80%;
+            margin: auto;
+            display: flex;
+        }
+
+        .paracontent {
+            width: 800px;
+            margin-left: 50px;
+        }
+
+        .cardset {
+            display: flex;
+            width: 90%;
+
+            flex-wrap: wrap;
+
+        }
+
+        .card {
+            width: 300px;
+            height: 400px;
+            margin: 10px;
+            background-color: black;
+            border: 1px solid white;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><img src="logo.png" alt="error" class="logo"></li>
+
+        </ul>
+
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Products</li>
+            <li>Review</li>
+            <li>Contact</li>
+            <li>Blogs</li>
+        </ul>
+        <img src="search (1).png" alt="" class="image1" width="50" height="50">
+        <img src="shopping.png" alt="" class="image1" width="50" height="50">
+    </nav>
+    <div>
+        <div
+            style="margin: auto;width:300px;height: 40px;display: flex;position: relative;margin-top:80px;font-weight: bolder;padding-bottom: 80px;">
+            <h1 style="color:#D3AD7F">ABOUT</h1>
+            <h1 style="color:white;margin-left:4px;"> US</h1>
+        </div>
+
+        <div class="content">
+            <div class="imagecon">
+                <img src="\about-img.jpeg.jpg" alt="">
+            </div>
+            <div class="paracontent">
+                <h1>What Makes Our Coffee Special</h1>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing eliint repudian
+                    excepturi! Quia, reprehenderit esse. Dolor culpa, facilis ad iure aspernatur quod debitis
+                    perferendis eveniet architecto sunt vitae totam cupiditate consectetur quas omnis expedita
+                    dicta.<br><br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum fugit deserunt quidem similique a
+                    maiores ipsam laboriosam nisi voluptas, explicabo eligendi, labore illum dolorum dignissimos libero
+                    deleniti nemo. Deleniti, molestiae.
+                </p>
+                <button style="color:white;background-color:orange;font-size:20px;padding:10px">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div class="cardset">
+        <div class="card">
+            <div style="background-image:url('blog-2.jpeg.jpg');width:100%;border-radius: 50%;height:200px;"><img src=""
+                    alt="" style="width:100%;border-radius: 50%;height:auto;"></div>
+            <h1 style="margin:auto;">Tasty and Healty</h1>
+            <h2>$15.99 <sub style="text-decoration:line-through;color:grey">$16</sub>
+            </h2>
+            <button style="background-color:#D3AD7F;margin-left: 10px;width: 120px;height: 40px ;color:white">Add to
+                cart</button>
+        </div>
+        <div class="card"><img src="\blog-3.jpeg.jpg" alt="" style="width:80%;height:auto;">
+            <h1 style="margin:auto;">Tasty and Healty</h1>
+            <h2>$15.99 <sub style="text-decoration:line-through;color:grey">$16</sub>
+            </h2>
+            <button style="background-color:#D3AD7F;margin-left: 10px;width: 120px;height: 40px ;color:white">Add to
+                cart</button>
+        </div>
+        <div class="card"><img src="\menu-2.png" alt="" style="width:50%;height:auto;">
+            <h1 style="margin:auto;">Tasty and Healty</h1>
+            <h2>$15.99 <sub style="text-decoration:line-through;color:grey">$16</sub>
+            </h2>
+            <button style="background-color:#D3AD7F;margin-left: 10px;width: 120px;height: 40px ;color:white">Add to
+                cart</button>
+        </div>
+        <div class="card"><img src="\menu-2.png" alt="" style="width:50%;height:auto;">
+            <h1 style="margin:auto;">Tasty and Healty</h1>
+            <h2>$15.99 <sub style="text-decoration:line-through;color:grey">$16</sub>
+            </h2>
+            <button style="background-color:#D3AD7F;margin-left: 10px;width: 120px;height: 40px ;color:white">Add to
+                cart</button>
+        </div>
+        <div class="card"><img src="\menu-4.png" style="width:50%;height:auto;">
+            <h1 style="margin:auto;">Tasty and Healty</h1>
+            <h2>$15.99 <sub style="text-decoration:line-through;color:grey">$16</sub>
+            </h2>
+            <button style="background-color:#D3AD7F;margin-left: 10px;width: 120px;height: 40px ;color:white">Add to
+                cart</button>
+        </div>
+        <div class="card"><img src="\menu-1.png" alt="" style="width:50%;height:auto;">
+            <h1 style="margin:auto;">Tasty and Healty</h1>
+            <h2>$15.99 <sub style="text-decoration:line-through;color:grey">$16</sub>
+            </h2>
+            <button style="background-color:#D3AD7F;margin-left: 10px;width: 120px;height: 40px ;color:white">Add to
+                cart</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
